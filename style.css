@@ -1,0 +1,290 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Quicksand, Arial, "sans-serif";
+	position: relative;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbar{
+	color: white;
+	position: relative; 
+	background-color: black;
+}
+
+.bgimage {
+	/*background-image: url("https://res.cloudinary.com/temidayomary/image/upload/v1587123250/background-blur-clean-clear-531880_dc1hai.jpg");*/
+	min-height: 250px;
+	background-color: #2F4F4F;
+	background-position: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+   position: relative; 
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.topnav {
+  	overflow: hidden;
+  	background-color: #333;
+}
+
+.topnav a {
+  	float: right;
+  	color: #f2f2f2;
+  	text-align: right;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.picture {
+	color: white;
+	float: center;
+	margin: 0 auto;
+}
+.name {
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 25px;
+}
+
+.Img {
+	position: relative;
+}
+
+.Img2 {
+	position: absolute;
+	left: 20%;
+	margin-top: -7%;
+}
+
+.myimg {
+	border-radius: 50% 50% 50% 50%;
+	width: 30%;
+	border-color: lightblue;
+}
+
+h3 {
+	font-size: ;
+	color: black; 
+}
+
+h1 {
+	float: center;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+hr{
+	color: rgb(0,0,128);
+}
+
+.row {
+	width: 100%;
+  display: flex;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  font-family: "M PLUS Rounded 1c";
+}
+
+.row1 {
+	display: flex;
+}
+
+.col1 {
+	flex: 25%;
+}
+
+.col2 {
+    color: white;
+    flex: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.col2 .web {
+	font-size: 120%;
+    line-height: 150%;
+    font-weight: 400;
+    word-spacing: 0.2px;
+}
+
+ .col2 .slack{
+	font-size: 120%;
+    line-height: 150%;
+    font-weight: 400;
+    word-spacing: 0.2px;
+}
+
+.column1 {
+  flex: 50%;
+  padding: 10px;
+  height: 400px;
+  margin-left: 20%;
+}
+
+.column1 p {
+	color: rgb(85,85,85);
+	font-family: Quicksand, Arial, sans-serif;
+	font-size: 120%;
+    line-height: 150%;
+    font-weight: 400;
+    word-spacing: 0.2px;
+}
+
+.column1 h4 {
+	color: rgb(0,0,128)
+	font-weight: 800;
+    font-size: 20px;
+}
+
+
+.column2 {
+	flex: 50%;
+	/*padding: 20px;*/
+	margin-left: %;
+}
+
+.column2 p {
+	color: rgb(85,85,85);
+	font-family: Quicksand, Arial, sans-serif;
+	font-size: 120%;
+    line-height: 150%;
+    font-weight: 400;
+    word-spacing: 0.2px;
+}
+
+form {
+	margin: 0 auto;
+	margin-bottom: 2%;
+	padding: 10px;
+  height: 360px;
+  border-radius: 5px;
+  /*background-color: #f2f2f2;*/
+  width: 350px;
+}
+
+.form{
+	margin-top: 3%;
+}
+.about {
+	margin-left: 25%;
+}
+
+.drop {
+	text-align: center;
+}
+
+.fa {
+	margin: 0 auto;
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social {
+	margin-left: 45%;
+}
+
